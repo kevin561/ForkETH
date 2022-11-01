@@ -1,0 +1,41 @@
+Arguments: 
+  E:\node\node.exe E:\node\node_global\node_modules\yarn\bin\yarn.js add --dev hardhat-gas-reporter
+
+PATH: 
+  C:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\ProgramData\chocolatey\bin;E:\node\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\mingw64\bin;E:\node\node_global;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;E:\node\node_global\;E:\node\node_global\node_modules\yarn\bin;C:\Users\Admin\go\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\work\ForkETHTest\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "@nomicfoundation/ethereumjs-rlp": "^4.0.0",
+      "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
+      "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+      "@nomiclabs/hardhat-ethers": "^2.2.0",
+      "chai": "^4.3.6",
+      "ethers": "^5.7.2",
+      "hardhat": "^2.12.0",
+      "mocha": "^10.1.0"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.7.3",
+      "dotenv": "^16.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
